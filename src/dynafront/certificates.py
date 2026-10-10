@@ -1,6 +1,6 @@
 """Independent theorem oracle.
 
-This module computes closed-form predictions from the verified theory notes.
+This module computes closed-form predictions from the paper theorems.
 It must not import or call simulation update functions.
 """
 

@@ -1,6 +1,6 @@
 # Supported numerical results
 
-These statements are the public scientific record. They are computed from `results/cached/summaries/` and checked against `expected_results.json`. They are not restatements of internal review correspondence.
+These statements are computed from `results/cached/summaries/` and checked against `expected_results.json`.
 
 ## Suite size
 

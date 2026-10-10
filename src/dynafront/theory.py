@@ -1,6 +1,5 @@
-"""Closed-form objects from DynaFront_Final_Theory_Results.
+"""Closed-form objects used by the paper theorems.
 
-Authoritative statements:
 - Crossed equilibria imply infinitely many switches, not period two.
 - The affine pair (z+, z-) with z+ > 0 > z- is the global period-two certificate
   and is equivalent to the cross-image conditions f+(f-(0)) < 0 < f-(f+(0)).

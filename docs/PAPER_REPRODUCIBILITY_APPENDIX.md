@@ -1,14 +1,8 @@
-# Paper reproducibility appendix (copy-ready)
-
-The manuscript source is not in this repository. Paste the following into the paper’s reproducibility appendix.
-
-## Replacement text
+# Paper reproducibility appendix
 
 The complete implementation, cached numerical results, and figure-rebuild scripts are available at:
 
 https://github.com/neildixi/discontinuous-selection-and-cyclic-dynamics-in-performative-learning
-
-The paper experiments use the public package interface, not the internal `experiments.run` commands.
 
 To reproduce the paper-facing suite:
 

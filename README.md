@@ -122,7 +122,7 @@ Oracle tests import `dynafront.certificates` only. Simulator tests import `dynaf
 - Attraction of the alternating pair in the general unaligned model is local, not global.
 - No general Gaussian escape exponent is established.
 
-Details: `docs/REPRODUCIBILITY.md`. Copy-ready paper appendix text: `docs/PAPER_REPRODUCIBILITY_APPENDIX.md`.
+Details: `docs/REPRODUCIBILITY.md` and `docs/PAPER_REPRODUCIBILITY_APPENDIX.md`.
 
 ## 12. Citation
 
