@@ -1,0 +1,19 @@
+mode: full
+master_seed: 20260821
+workers: 2
+families:
+  - synthetic_a
+  - synthetic_b
+  - synthetic_c
+  - synthetic_d_bounded
+  - synthetic_d_gaussian
+  - unaligned
+  - tanh
+  - itinerary
+  - hysteresis
+  - delayed
+  - gaussian_exact
+description: >
+  Complete verified suite of 2,156 jobs. This count is jobs (configuration
+  cells), not independent systems. Supplementary families not used in the
+  main-paper figures are retained here.

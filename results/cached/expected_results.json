@@ -1,0 +1,178 @@
+{
+  "_comment": "Verified headline values. Jobs are configuration cells, not systems. Floating-point entries are compared with the stated tolerances; classifications and counts must match exactly.",
+  "master_seed": {
+    "value": 20260821,
+    "compare": "exact",
+    "modes": ["quick", "paper", "full"]
+  },
+  "jobs_full": {
+    "value": 2156,
+    "compare": "exact",
+    "unit": "jobs",
+    "full_only": true,
+    "modes": ["full"]
+  },
+  "jobs_paper": {
+    "value": 1434,
+    "compare": "exact",
+    "unit": "jobs",
+    "modes": ["paper"]
+  },
+  "clipped_n_widths": {
+    "value": 32,
+    "compare": "exact",
+    "unit": "clipped width ratios including the appended threshold 1.0",
+    "modes": ["paper", "full"]
+  },
+  "hard_D2_mean_max": {
+    "value": 1.5246727595212376e-11,
+    "compare": "float",
+    "atol": 1e-16,
+    "rtol": 1e-6,
+    "unit": "mean-over-IC distance to the hard alternating orbit",
+    "modes": ["paper", "full"]
+  },
+  "hard_D2_max_ic": {
+    "value": 4.5838e-11,
+    "compare": "float",
+    "atol": 5e-13,
+    "rtol": 1e-3,
+    "optional": true,
+    "unit": "maximum over initial conditions of mean post-burn-in orbit distance",
+    "modes": ["paper", "full"]
+  },
+  "tanh_n_subcritical": {
+    "value": 40,
+    "compare": "exact",
+    "modes": ["paper", "full"]
+  },
+  "tanh_n_subcritical_converged": {
+    "value": 40,
+    "compare": "exact",
+    "modes": ["paper", "full"]
+  },
+  "tanh_max_amp_err_all_subcritical": {
+    "value": 2.398081733190338e-15,
+    "compare": "float",
+    "atol": 5e-16,
+    "rtol": 0.05,
+    "modes": ["paper", "full"]
+  },
+  "tanh_max_amp_err_ratio_lt_0.98": {
+    "value": 1.2448375663609566e-15,
+    "compare": "float",
+    "atol": 5e-16,
+    "rtol": 0.05,
+    "modes": ["paper", "full"]
+  },
+  "tanh_max_residual": {
+    "value": 3.3306690738754696e-16,
+    "compare": "float",
+    "atol": 1e-15,
+    "rtol": 0.0,
+    "modes": ["paper", "full"]
+  },
+  "unaligned_n_systems": {
+    "value": 432,
+    "compare": "exact",
+    "unit": "systems pooled over 12 jobs",
+    "modes": ["paper", "full"]
+  },
+  "unaligned_min_systems_per_quadrant": {
+    "value": 108,
+    "compare": "exact",
+    "modes": ["paper", "full"]
+  },
+  "unaligned_max_rel_fix_err": {
+    "value": 1.2756137630040687e-15,
+    "compare": "float",
+    "atol": 5e-16,
+    "rtol": 0.25,
+    "modes": ["paper", "full"]
+  },
+  "s1_n_systems": {
+    "value": 300,
+    "compare": "exact",
+    "unit": "systems, each with 20 initial conditions",
+    "modes": ["paper", "full"]
+  },
+  "s1_n_systems_period_two": {
+    "value": 300,
+    "compare": "exact",
+    "modes": ["paper", "full"]
+  },
+  "s1_frac_period_two": {
+    "value": 1.0,
+    "compare": "float",
+    "atol": 1e-12,
+    "rtol": 0.0,
+    "modes": ["paper", "full"]
+  },
+  "s2_n_systems": {
+    "value": 300,
+    "compare": "exact",
+    "modes": ["paper", "full"]
+  },
+  "s2_n_systems_period_two": {
+    "value": 0,
+    "compare": "exact",
+    "modes": ["paper", "full"]
+  },
+  "s2_frac_period_two": {
+    "value": 0.0,
+    "compare": "float",
+    "atol": 1e-12,
+    "rtol": 0.0,
+    "modes": ["paper", "full"]
+  },
+  "s2_n_other_finite": {
+    "value": 285,
+    "compare": "exact",
+    "modes": ["paper", "full"]
+  },
+  "s2_n_unresolved": {
+    "value": 15,
+    "compare": "exact",
+    "modes": ["paper", "full"]
+  },
+  "s3_n_systems": {
+    "value": 300,
+    "compare": "exact",
+    "modes": ["paper", "full"]
+  },
+  "itinerary_uncond_n_systems": {
+    "value": 2000,
+    "compare": "exact",
+    "unit": "unconditional sample of systems",
+    "modes": ["paper", "full"]
+  },
+  "itinerary_n_obs_without_cert": {
+    "value": 0,
+    "compare": "exact",
+    "modes": ["paper", "full"]
+  },
+  "itinerary_n_cert_local_fail": {
+    "value": 0,
+    "compare": "exact",
+    "modes": ["paper", "full"]
+  },
+  "itinerary_max_state_err": {
+    "value": 8.731504408387991e-11,
+    "compare": "float",
+    "atol": 1e-14,
+    "rtol": 1e-4,
+    "modes": ["paper", "full"]
+  },
+  "itinerary_coverage_scanned": {
+    "value": 5995,
+    "compare": "exact",
+    "unit": "systems scanned to retain the coverage set",
+    "modes": ["paper", "full"]
+  },
+  "itinerary_coverage_period_1": {"value": 25, "compare": "exact", "modes": ["paper", "full"]},
+  "itinerary_coverage_period_2": {"value": 25, "compare": "exact", "modes": ["paper", "full"]},
+  "itinerary_coverage_period_3": {"value": 25, "compare": "exact", "modes": ["paper", "full"]},
+  "itinerary_coverage_period_4": {"value": 25, "compare": "exact", "modes": ["paper", "full"]},
+  "itinerary_coverage_period_5": {"value": 25, "compare": "exact", "modes": ["paper", "full"]},
+  "itinerary_coverage_period_6": {"value": 25, "compare": "exact", "modes": ["paper", "full"]}
+}

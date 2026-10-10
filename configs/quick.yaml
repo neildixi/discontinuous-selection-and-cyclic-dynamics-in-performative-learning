@@ -1,0 +1,7 @@
+mode: quick
+master_seed: 20260821
+workers: 2
+description: >
+  Deterministic smoke configuration. Each family runs a reduced job so the
+  pipeline, checkpoints, summaries, and figure rebuild can be checked on a
+  laptop. Headline paper numbers are not expected to match in this mode.

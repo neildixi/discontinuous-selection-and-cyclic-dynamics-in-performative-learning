@@ -1,0 +1,15 @@
+mode: paper
+master_seed: 20260821
+workers: 2
+families:
+  - synthetic_a
+  - synthetic_c
+  - unaligned
+  - tanh
+  - itinerary
+  - hysteresis
+description: >
+  Every experiment family used for the paper's reported claims and figures.
+  1,434 jobs: aligned hard/clipped/deadband cells, 900 asymmetric systems,
+  12 unaligned jobs (432 systems), 85 tanh cells, 2 itinerary sample jobs,
+  and 110 hysteresis/deadband threshold cells.

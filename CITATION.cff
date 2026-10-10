@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: If you use this repository, please cite the associated paper.
+title: Discontinuous Selection and Cyclic Dynamics in Performative Learning
+license: MIT
+repository-code: "https://github.com/neildixi/discontinuous-selection-and-cyclic-dynamics-in-performative-learning"
+authors:
+  - family-names: Dixit
+    given-names: Neil
+preferred-citation:
+  type: conference-paper
+  title: Discontinuous Selection and Cyclic Dynamics in Performative Learning
+  authors:
+    - family-names: Dixit
+      given-names: Neil
+  year: 2026
+  collection-title: "DynaFront: Dynamics at the Frontiers of Optimization, Sampling, and Games, NeurIPS 2026 Workshop"
+  notes: Accepted poster, non-archival workshop paper
